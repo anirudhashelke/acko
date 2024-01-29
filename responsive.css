@@ -1,0 +1,14 @@
+@media screen and (max-width:768px) {
+    header .a-heaher ul li{
+        padding: 0 !important;
+        padding-left: 4px !important;
+       
+    }
+    header .a-heaher ul{
+       padding: 0 !important; 
+    }
+    main .a-banner .a-ban{
+        width: 100% !important;
+    }
+
+}

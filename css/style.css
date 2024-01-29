@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    padding: 0 ;
+    margin: 0 ;
+    box-sizing: border-box ;
+}
+body {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+}
+.a-head{
+    width: 100%;
+    background-color: rgb(89, 32, 197);
+    /* height:100px; */
+   
+}
+header .a-heaher{
+    margin: 0 !important;
+    align-items: center;
+}
+header .a-heaher ul{
+    list-style: none;
+    justify-content: space-between;
+      align-items: center;
+      margin: auto;
+}  
+header .a-heaher ul li{
+    /* padding: 20px; */
+   box-sizing: border-box;
+}
+header .a-heaher ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    font-family: Inter;
+}
+header .a-heaher ul li a i{
+    padding-left: 7px;
+}
+header .a-heaher .a-heaher-1 button{
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: Inter;
+    font-weight: 600;
+    color: rgb(4, 2, 34);
+    border: 1px solid rgb(4, 2, 34);
+    background-color:rgb(255, 255, 255);
+}
+header .a-heaher .a-heaher-1 .a-sign:hover{
+    background-color: rgb(11, 117, 62) !important;
+}
+/* banner style */
+/* icons */
+main  .a-box-i .a-icons{
+   width: 52px;
+   height: 52px;
+   border-radius: 50%;
+   background: rgb(74, 31, 158);
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   /* transition: all 0.2s ease-in 0s; */
+   color: #fff;
+}
+main  .a-box-i  h6{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    margin-top: 12px !important;
+    font-weight: 400;
+}
+main  .a-box-i .a-icons.active {
+    background-color: white !important;
+    color: #000 !important;
+}
+
+/* section insurance */
+main .a-banner{
+    width: 100%;
+    background-color: rgb(89, 32, 197);
+    /* height: 530px; */
+}
+main .a-banner .a-banner-img{
+    width:332px;
+    height: 372px;
+}
+main .a-banner .a-banner-img img{
+    width:100%;
+    height: 100%;
+}  
+main .a-banner .a-ban{
+    width:36%;
+    height: fit-content;
+    animation: bannerForm 0.8s forwards;
+}
+@keyframes bannerForm {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+main .a-banner .a-banner-content{
+    background: rgba(4, 2, 34, 0.2) !important;
+    border-radius: 12px;
+    padding: 24px 26px;
+}
+
+main .a-banner .a-banner-content h3{
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+main .a-banner .a-banner-content .a-input{
+    border-radius: 15px;
+    margin-top: 20px;
+    margin: auto;
+    margin-top: 30px;
+}
+main .a-banner .a-banner-content .a-input input{
+    border: none;
+    outline: none;
+}
+main .a-banner  .a-banner-content-bottom{
+    background: rgba(4, 2, 34, 0.2) !important;
+    border-radius: 12px;
+    padding: 15px;
+    margin-top: 25px;
+}
+main .a-banner .a-banner-content-bottom .a-banner-car-img{
+width: 48px;
+height: 48px;
+background-color: rgb(112, 59, 217);
+border-radius: 10px;
+display:  flex;
+justify-content: center;
+align-items: center;
+}  
+main .a-banner .a-banner-content-bottom h5{
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+main .a-banner .a-banner-content-bottom h6{
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+main .a-banner .a-banner-content-bottom button{
+    padding: 8px 16px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    cursor: pointer;
+}
+main .a-banner .a-banner-content .a-check-prices{
+    margin-top: 20px;
+    padding: 8px 60px;
+    border-radius: 8px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 32px;
+    font-size: 16px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(15, 164, 87);
+    cursor: pointer;
+} 
+main .a-banner .a-banner-content .a-check-prices:hover{
+    background-color: rgb(11, 117, 62) !important;
+}
+
+/* vidio */
+main .a-video{
+    background-color: rgb(20, 19, 35);
+}   
+main .a-video .a-video-box button{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 12px 24px;
+    border-radius: 24px;
+    background: rgb(34, 34, 50);
+    cursor: pointer;
+    color: #fff;
+    border: none;
+}
+ main .a-video .a-video-left .a-video-top video{
+    width:100%;
+    height: 100%;
+    border-radius: 12px;
+ }
+ main .a-video .a-video-left .a-video-bottom .a-video-icons{
+    border-radius: 16px;
+    height: 28px;
+    width: 58px;
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 6px;
+    cursor: pointer;
+    font-size: 12px;
+ }
+ main .a-video .a-video-left .a-video-bottom .a-video-icons span{
+padding-left: 4px;
+ }
+ main .a-video  .a-video-right{
+    height: 400px;
+    background-color: rgba(4, 2, 34, 0.4);
+    border-radius: 12px;
+    overflow: auto;
+    padding: 20px;
+}
+main .a-video  .a-video-right .a-video-right-box .a-video-right-content video{
+    border-radius: 8px;
+    width: 107px;
+    height: 71px;
+    cursor: pointer;
+    
+}
+main .a-video  .a-video-right .a-video-right-box h5{
+    font-size: 14px;
+     font-weight: 600;
+}
+main .a-video  .a-video-right .a-video-right-box h6{
+    font-size: 14px;
+     font-weight: 300;
+     padding: 0px 20px;
+}
+
+
+.a-video-right::-webkit-scrollbar-thumb {
+    background-color: white !important;
+    width: 5px;
+    border-radius: 10px;
+}
+
+.a-video-right::-webkit-scrollbar-track {
+    background-color: #0E0C23 !important;
+    width: 5px;
+    border-radius: 10px;
+}
+
+.a-video-right::-webkit-scrollbar {
+    background-color: #0E0C23 !important;
+    width: 5px;
+    border-radius: 10px;
+}
+
+/* acko section */
+main .a-acko{
+border-right: 1px solid rgba(77, 74, 74, 0.204);
+}
+main .a-acko h1{
+    color: rgb(89, 32, 197);
+    line-height: 44px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+main .a-acko h6{
+    color: rgb(21, 22, 25);
+    margin: 12px 0px 0px;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+}
+main .a-team{
+    /* max-width: 160px; */
+    width: 100%;
+    max-height: 160px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(231, 231, 240);
+    border-radius: 20px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+}
+main .a-teams img{
+    width: 100%;
+    /* height: 100%; */
+}
+
+
