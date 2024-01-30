@@ -10,5 +10,9 @@
     main .a-banner .a-ban{
         width: 100% !important;
     }
+    main .a-teams{
+      margin-left: 35px;
+      margin-bottom: 10px;
+    }
 
 }

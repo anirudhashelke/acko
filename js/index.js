@@ -119,3 +119,59 @@ for (let i = 0; i < videoList.length; i++) {
         crrentVideo.play()
     })
 }
+//  creating Array of object
+const ackoData =[{
+    img: "/t-1.svg",
+    title: "Incredibly low premiums",
+    discription: "Insuring things that matter to you shouldn’t come at a cost. That’s why when you buy from us, you get insurance that fits your pocket."
+},
+{
+  img: "/t-2.svg",
+  title: "Superquick and easy",
+  discription: "We’re easy, effortless and 100% digital. Forget paperwork, just access all our services with just a few clicks."  
+},
+{
+  img: "/t-3.svg",
+  title: "Hassle-free claims",
+  discription: "We’re on a mission to make insurance claims stress-free. Just give us a call or file a claim online and experience cashless, speedy claim settlements."  
+},
+]
+
+
+
+// create acko section
+const ackoSection =document.getElementById("acko-section")
+
+for(let i= 0; 1 < ackoData.length; i++){
+// console.log(ackoSection)
+ // create div element
+const ackoCard = document.createElement("div")
+// console.log(ackoCard)
+ackoCard.className= "col-12 col-md-4"
+ 
+// create img
+const img = document.createElement("img")
+img.src = "../img"+ ackoData[i].img
+img.alt = "#"
+img.width = "120"
+
+// create h4 tag
+const h4 =document.createElement("h4")
+h4.innerText= ackoData[i].title
+
+// create p tag
+const p = document.createElement("p")
+p.innerText = ackoData[i].discription
+
+
+// appeding child of ackoCard
+ackoCard.appendChild(img)
+ackoCard.appendChild(h4)
+ackoCard.appendChild(p)
+// console.log(img)
+
+
+// appending child of ackosection
+ackoSection.appendChild(ackoCard)
+// console.log(ackoSection)
+}

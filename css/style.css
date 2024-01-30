@@ -272,20 +272,49 @@ main .a-acko h6{
     line-height: 24px;
     text-align: center;
 }
-main .a-team{
-    /* max-width: 160px; */
-    width: 100%;
-    max-height: 160px;
+main .a-teams{
+   width: 160px;
+   height:140px;
     background: rgb(255, 255, 255);
     border: 1px solid rgb(231, 231, 240);
     border-radius: 20px;
     padding: 16px;
-    display: flex;
-    align-items: center;
 }
 main .a-teams img{
     width: 100%;
-    /* height: 100%; */
+    height: 100%;
+    object-fit:contain;
 }
+
+/* star */
+main .a-star .a-staring p{
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+main .a-star .a-staring img{
+    border-radius: 50%;
+    margin-bottom: 7px;
+}
+main .a-star .a-staring h5{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(21, 22, 25);
+} 
+main .a-star .a-staring h6{
+    font-weight: 500;
+    font-size: 10px;
+    color: rgb(85, 90, 104);
+}
+/* apps  */
+main .a-apps{
+    width:12%;
+}
+main .a-apps img{
+    width: 60%;
+    
+}
+
+
 
 
