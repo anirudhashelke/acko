@@ -292,17 +292,3 @@ Div.appendChild(ul)
 // footerBox.appendChild(div)
 
 
-
-//toggle mobile drawer
-const openSlideBtn = document.getElementById("open_slider_btn")
-const closeSlideBtn = document.getElementById("close_slider_btn")
-const drawer = document.querySelector(".b_small_screen_drawer")
-
-openSlideBtn.addEventListener("click", function () {
-    drawer.classList.remove("d-none")
-})
-
-closeSlideBtn.addEventListener("click", function () {
-    drawer.classList.add("d-none")
-})
- 
