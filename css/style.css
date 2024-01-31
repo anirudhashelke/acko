@@ -192,7 +192,12 @@ main .a-video .a-video-box button{
     cursor: pointer;
     color: #fff;
     border: none;
+    border: 1px solid   rgb(34, 34, 50);
 }
+main .a-video .a-video-box button:hover{
+    border:  1px solid  #0FA457;
+}
+
  main .a-video .a-video-left .a-video-top video{
     width:100%;
     height: 100%;
@@ -314,6 +319,27 @@ main .a-apps img{
     width: 60%;
     
 }
+/* love acko */
+main .a-love-acko h5{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(40, 46, 51);
+}
+/* main .a-love-acko p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(67, 79, 90);
+} */
+
+/* footer */
+footer .a-footers h6{
+    color: rgb(0, 0, 0);
+    margin: 0px 32px 0px 0px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+
 
 
 
