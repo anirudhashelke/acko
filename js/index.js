@@ -245,6 +245,7 @@ h6.className="ps-4 ms-2 my-3"
 // create ul tag
 const ul = document.createElement("ul")
 ul.style.listStyle="none"
+ul.style.margin="0"
 
 
 for (let link = 0; link < footerData[i].navLinks.length; link++) {
